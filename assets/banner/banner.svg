@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#e0fbfc" fill-opacity="0.10"/>
+    </pattern>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e0fbfc"/>
+      <stop offset="100%" stop-color="#e0fbfc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <rect width="1200" height="320" fill="url(#dots)"/>
+
+  <!-- terminal-style prompt decoration -->
+  <g font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="15" fill="#e0fbfc" fill-opacity="0.55">
+    <text x="72" y="72">&gt; automate --the-boring-parts</text>
+  </g>
+
+  <!-- name -->
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="70" y="168" font-size="64" font-weight="700" fill="#e0fbfc">Christopher Cannata</text>
+    <text x="72" y="216" font-size="24" font-weight="400" fill="#8b949e">Principal Program Manager · Automation &amp; AI</text>
+    <text x="72" y="252" font-size="18" font-weight="400" fill="#6e7681">Vertex Pharmaceuticals · Boston University MS CS &amp; AI</text>
+  </g>
+
+  <!-- accent rule -->
+  <rect x="72" y="282" width="220" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <!-- subtle circuit nodes, right side -->
+  <g stroke="#e0fbfc" stroke-opacity="0.35" stroke-width="1.5" fill="none">
+    <circle cx="1060" cy="90" r="5" fill="#e0fbfc" fill-opacity="0.5" stroke="none"/>
+    <circle cx="1110" cy="150" r="5" fill="#e0fbfc" fill-opacity="0.5" stroke="none"/>
+    <circle cx="1040" cy="210" r="5" fill="#e0fbfc" fill-opacity="0.5" stroke="none"/>
+    <path d="M1060 90 L1110 150 L1040 210"/>
+  </g>
+</svg>
