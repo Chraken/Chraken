@@ -63,9 +63,11 @@
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
 
-## Dev Quote
+## Favorite Quote
 
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=vertical&theme=dark&backgroundColor=1a1a1a&quoteColor=e0fbfc&authorColor=e0fbfc&symbolColor=e0fbfc&border_radius=10)
+> "You'll have bad times, but it'll always wake you up to the good stuff you weren't paying attention to."
+>
+> — Sean Maguire, *Good Will Hunting*
 
 ## Contribution Heatmap
 
